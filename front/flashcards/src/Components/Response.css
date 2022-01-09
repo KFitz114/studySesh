@@ -1,0 +1,158 @@
+.response   {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   background-color: gray;
+   background-size: cover;
+}
+
+.flashCard  {
+    border: black solid 1px;
+    background-color: gray;
+    /* box-shadow: 10px 5px 5px black; */
+    padding: 20;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-radius: 10%;
+}
+
+.question   {
+    flex-grow: 2;
+    box-shadow: gray 2px 2px 2px 2px;
+    resize: none;
+    height: 250px;
+    width: 500px;
+    font-size: 25px;
+    margin-bottom: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.answer {
+    flex-grow: 2;
+    box-shadow: gray 2px 2px 2px 2px;
+    resize: none;
+    height: 250px;
+    width: 500px;
+    font-size: 25px;
+    /* padding-top: 15px; */
+    background-color: white;
+    flex-direction: column;
+}
+
+.cardLi {
+    justify-content: center;
+    padding: 10px;
+    background-color: gray;
+    flex-wrap: wrap
+    flex;
+    /* Originally:
+    flex-direction: column;
+    justify-content: center; */
+    flex-direction: row;
+}
+
+.header {
+    align-self: center;
+    flex-direction: column;
+}
+
+.delBtn {
+    /* margin: auto; */
+    border-radius: 15%;
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.editBtn    {
+    margin: auto;
+    border-radius: 15%;
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.buttons    {
+    margin: 30px;
+    text-decoration: none;
+}
+
+.flippy-front   {
+    box-shadow: none;
+}
+
+.flippy-back    {
+    box-shadow: none;
+}
+
+/* .introTwo  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: gray;
+    font-weight: 600;
+    font-size: 32px;
+    background-size: fill;
+} */
+
+h4  {
+    text-decoration: underline;
+}
+
+#collection {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    background-color: gray;
+    margin: auto;
+}
+
+.link-side  {
+    display: flex;
+    color: #1A5089;
+    text-decoration: none;
+    align-self: center;
+    font-size: 26px;
+    font-weight: 500;
+    padding-top: 120px;
+}
+
+.link-side:hover{
+    text-decoration: underline;
+}
+
+.side-link-container    {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(245, 242, 239);
+    border: solid 3px #1A5089;
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-display-header    {
+    display: flex;
+    flex-direction: column;
+}
+
+element.style   {
+    text-decoration: none;
+}
+
+link    {
+    text-decoration: none;
+}

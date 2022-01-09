@@ -1,0 +1,89 @@
+.input  {
+    flex-grow: 2;
+    box-shadow: gray 3px 3px 3px 3px;
+    resize: none;
+    height: 250px;
+    width: 500px;
+    font-size: 25px;
+    padding-top: 15px;
+    flex-direction: column;
+    margin: auto;
+}
+
+.inputAnswer  {
+    flex-grow: 2;
+    box-shadow: gray 3px 3px 3px 3px;
+    resize: none;
+    height: 250px;
+    width: 500px;
+    font-size: 25px;
+    padding-top: 15px;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: #311c01;
+    background-color: #1A5089 ;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    border-radius: 15%;
+    margin-top: 30px;
+    box-shadow: gray 2px 2px 2px 2px;
+}
+
+.button:hover   {
+    color: yellow;
+    cursor: pointer;
+}
+
+.submission {
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    border: solid black 5px;
+    /* background-color: gray ; */
+    justify-content: space-between;
+    justify-content: center;
+    background-color: #1A5089;
+}
+
+/* html    {
+    background-size: 100%;
+    background-color: whitesmoke;
+} */
+
+.intro  {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+    justify-items: flex-end;
+    flex-direction: column;
+}
+
+.cardCreate {
+    border: solid black 1px;
+    padding: 30px;
+    background-color: white;
+    flex-direction: column;
+    flex-grow: 2;
+    background-color: whitesmoke;
+}
+
+.submission {
+    margin: auto;
+}
+
+h3  {
+    /* border: solid black 1px; */
+    padding: 20px;
+    background-color: #1A5089;
+    text-decoration: underline;
+    font-weight: 600px;
+}
