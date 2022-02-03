@@ -60,6 +60,9 @@ h1  {
   text-overflow: initial;
   flex-grow: 2;
   font-size: 30px;
+  background-color: rgb(0, 0, 0, .8);
+  border-radius: 15%;
+  padding: 20px;
 }
 
 .container  {
@@ -69,7 +72,7 @@ h1  {
   padding-left: 400px;
   padding-right: 400px;
   position: relative;
-  background-image: url(C:\Users\Shady\Documents\DEV\Fullstack\React\studysesh\front\flashcards\src\Components\Images\notebook.jpg);
+  background-image: url('https://source.unsplash.com/1600x900/?study');
   background-repeat: no-repeat;
   background-size: cover;
   color: #1A5089;
@@ -93,5 +96,9 @@ h1  {
 
 .p-about  {
   font-size: 32px;
+  background-color: rgb(0, 0, 0, .8);
+  border-radius: 15%;
+  text-overflow: clip;
 }
+
 
